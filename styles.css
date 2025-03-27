@@ -31,7 +31,7 @@ body {
     background-color: #ddd;
     margin: 20px auto;
     border: 2px solid #000;
-    background-size: cover; /* Растягивает изображение на весь блок */
-    background-position: center; /* Центрирует изображение */
-    background-repeat: no-repeat; /* Убирает повторение */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
