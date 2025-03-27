@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#image {
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    background-color: #ddd;
+    margin: 20px auto;
+    border: 2px solid #000;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.gallery img:hover {
+    border: 2px solid blue;
+}
+
+#image {
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    background-color: #ddd;
+    margin: 20px auto;
+    border: 2px solid #000;
+    background-size: cover; /* Растягивает изображение на весь блок */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Убирает повторение */
+}
